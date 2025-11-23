@@ -10,6 +10,21 @@ const SocialFeed = () => {
   
   const [posts, setPosts] = useState([
     {
+      id: 0,
+      author: 'Keven Atef',
+      username: '@keven_atef',
+      avatar: '🔥',
+      time: 'الآن',
+      content: 'Check out my new Social Media Feed project! Built with React, Tailwind CSS, and Lucide Icons. Features dark mode, real-time interactions, and responsive design 🚀',
+      image: null,
+      likes: 312,
+      comments: 78,
+      shares: 45,
+      liked: true,
+      bookmarked: true,
+      tags: ['#React', '#TailwindCSS', '#Frontend', '#WebDev']
+    },
+    {
       id: 1,
       author: 'أحمد محمود',
       username: '@ahmed_dev',
